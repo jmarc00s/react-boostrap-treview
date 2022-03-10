@@ -1,3 +1,3 @@
 # React-boostrap-treview
 
-React application to implement compound component pattern to a treeview component using bootstrap.
+React application to understand and implement a compound component pattern to a treeview component using bootstrap.
