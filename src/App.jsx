@@ -1,6 +1,7 @@
+import { Container } from 'react-bootstrap';
 import { Treeview } from './components/treeview';
 
-const Data = [
+const data = [
   {
     name: 'Directory 01',
     children: [
@@ -63,11 +64,15 @@ const Data = [
 
 function App() {
   return (
-    <div className="App">
-      <Treeview>
-        <Treeview.Node />
+    <Container
+      className="d-flex flex-column align-items-center mt-5"
+      style={{ height: '100vh' }}
+    >
+      <Treeview data={data}>
+        <Treeview.Search />
+        <Treeview.Nodes />
       </Treeview>
-    </div>
+    </Container>
   );
 }
 

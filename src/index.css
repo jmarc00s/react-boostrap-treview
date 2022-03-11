@@ -3,3 +3,10 @@
 body {
   font-family: Roboto, sans-serif !important;
 }
+
+:root {
+  --gray-primary-color: #eee;
+  --gray-secondary-color: #d3d3d3;
+
+  --typo-color: rgba(0, 0, 0, 0.75);
+}

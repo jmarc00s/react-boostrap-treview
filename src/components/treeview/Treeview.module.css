@@ -1,0 +1,18 @@
+.icon {
+  color: #aeaeae;
+  padding-right: 1rem;
+}
+
+.node-name {
+  color: var(--typo-color);
+}
+
+.node {
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.node:hover {
+  background-color: var(--gray-primary-color);
+}
